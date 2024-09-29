@@ -1,5 +1,5 @@
 # Kanan
-A program designed to ease your daily activities, coded in Nim.
+A program designed to ease your daily activities, coded in Python.
 
 # What is _kanan_?
 ### A little bit of detail
