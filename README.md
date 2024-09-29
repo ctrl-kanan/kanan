@@ -15,8 +15,7 @@ Kanan is also my personal project I've made, replacing _markustools_.
 # How do I install Kanan?
 You can **currently** 
 - Install Kanan via the AUR with a package manager,
-- or **hopefully** install Kanan with chocolatey for **Windows**.
-or if you **don't use** Arch Linux, you can build it by scratch.
+- You can build it by scratch.
 
 ## Steps for building by scratch (Linux ONLY!)
 - Change directory to source
