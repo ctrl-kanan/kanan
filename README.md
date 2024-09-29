@@ -5,8 +5,10 @@ A program designed to ease your daily activities, coded in Python.
 ### A little bit of detail
 As stated in the description, Kanan is
 - A simple program that doesn't require troubleshooting
-- Your best friend for tricky issues
+- Your best friend for calculations
 - A CLI joker
+- A dog
+- An interactive prompt that talks to you
 
 Kanan is also my personal project I've made, replacing _markustools_.
 
