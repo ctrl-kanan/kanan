@@ -3,7 +3,9 @@
 import sys, random
 
 #Variables
+#Amount of arguments passed
 n = len(sys.argv)
+#ASCII art of Kanan for -s
 kanan_art = """
        / \\__
       (    @\\___
@@ -35,9 +37,12 @@ if n == 3:
 	else:
 		print("Oops")
 
+#Arguments with no needed file/folder/any other 3rd argument
 if n == 2:
 	if sys.argv[1] == "-s":
 		#List of speeched for Kanan to say
 		kananSpeeches = ["My best job was being a musician, but eventually I found I wasn’t noteworthy.", "You see people every single day that you'll never see again.", "You may have once made a decision that saved your life without knowing it.", "In every Olympic event, they should have an average person compete so we can have a point of reference and appreciate the athletes more.", "The number of people older than you never goes up.", "One day, you'll be someone's ancestor.", "Why is it called a boxing ring if it's a square?", "Why is it lipstick if it doesn't stick your lips together?"]
+  #ASCII art
 		print(kanan_art)
+  #Say random thing
 		print("\nKanan says: ", random.choice(kananSpeeches)) 
